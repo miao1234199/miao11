@@ -1,0 +1,61 @@
+### **1. What is the dataset about?**  
+This dataset contains **statistics on the number of Taiwanese citizens traveling abroad by destination from 2002 to 2024**. It records the number of travelers for each year, categorized by **region** and **specific destination**.  
+
+**Key features:**  
+- Covers **22 years** of travel trends for Taiwanese citizens.  
+- Includes **major destinations** such as Japan, Korea, Hong Kong, China, and Macao.  
+- Likely shows **COVID-19 impact** (drop in 2020-2022, recovery in 2023-2024).  
+
+#### **1. 這個數據集的內容是什麼？**  
+這個數據集記錄了**2002 年至 2024 年台灣國民前往各國旅遊的人數統計**，涵蓋各年度的旅遊人數，並根據**地區**與**具體目的地**進行分類。  
+
+**主要特點：**  
+- 涵蓋 **22 年** 的台灣旅遊趨勢變化。  
+- 包含 **主要旅遊目的地**，如日本、韓國、香港、中國、澳門等。  
+- 可能顯示 **COVID-19 的影響**（2020-2022 年人數下降，2023-2024 年恢復）。  
+
+---
+
+### **2. What are the variables?**  
+The dataset includes the following variables:  
+
+- **`首站抵達地` (Region):** The broader geographical region (e.g., Asia, Europe).  
+- **`細分` (Destination):** The specific travel destination (e.g., Japan, Korea, Hong Kong).  
+- **`2002` to `2024` (Yearly travel data):** The number of Taiwanese travelers visiting each destination per year.  
+
+#### **2. 這個數據集包含哪些變數？**  
+數據集包含以下變數：  
+
+- **`首站抵達地`（區域）：** 旅遊目的地所屬的大區域（如亞洲、歐洲）。  
+- **`細分`（目的地）：** 具體的國家或地區（如日本、韓國、香港）。  
+- **`2002` 至 `2024`（年度旅遊數據）：** 每年台灣旅客前往各地的總人數。  
+
+---
+
+### **3. What are the variable types?**  
+
+| Variable          | Type    | Description |
+|------------------|--------|-------------|
+| `首站抵達地` (Region)  | Categorical (Object) | Broad travel region (e.g., Asia, Europe) |
+| `細分` (Destination)  | Categorical (Object) | Specific destination (e.g., Japan, Korea) |
+| `2002 - 2024` (Yearly data) | Numerical (Stored as Object, should be Integer) | Number of Taiwanese travelers per year |
+
+Currently, the yearly travel data is stored as **text (object)** with commas (e.g., `"1,280,853"`). It should be converted to **integer (int64)** for proper analysis.  
+
+#### **3. 變數的類型是什麼？**  
+
+| 變數名稱           | 變數類型    | 描述 |
+|------------------|----------|-------------|
+| `首站抵達地`（區域）  | 類別變數（Object） | 旅遊目的地所屬的大區域（如亞洲、歐洲） |
+| `細分`（目的地）  | 類別變數（Object） | 具體的旅遊國家或地區（如日本、韓國） |
+| `2002 - 2024`（年度數據） | 數值變數（目前為 Object，應轉換為整數 int64） | 每年台灣旅客前往各地的總人數 |
+
+Currently, **the yearly travel data** is stored as **text (object)** and contains commas (e.g., `"1,280,853"`).  
+These should be converted into **integers (int64)** for better analysis.  
+
+---
+
+### **Next Steps / 下一步建議**  
+Would you like me to clean the dataset, analyze trends, or create visualizations? 😊  
+您希望我幫您清理數據、分析趨勢，或是製作圖表來視覺化數據呢？😊
+
